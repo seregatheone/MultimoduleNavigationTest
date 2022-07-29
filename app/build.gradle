@@ -35,8 +35,9 @@ android {
 }
 
 dependencies {
-    implementation project(":feature-first")
+    implementation project(":core:navigations")
     implementation project(":feature-second")
+    implementation project(":feature-first")
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'

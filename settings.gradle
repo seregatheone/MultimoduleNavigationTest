@@ -16,3 +16,4 @@ rootProject.name = "MultimoduleNavigationNavGraph"
 include ':app'
 include ':feature-first'
 include ':feature-second'
+include ':core:navigations'
